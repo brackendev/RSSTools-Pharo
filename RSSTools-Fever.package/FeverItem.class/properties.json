@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "brackendev 3/21/2018 17:56",
+	"super" : "Object",
+	"category" : "RSSTools-Fever",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"feedID",
+		"title",
+		"author",
+		"html",
+		"url",
+		"isSaved",
+		"isRead",
+		"createdOnTime"
+	],
+	"name" : "FeverItem",
+	"type" : "normal"
+}

@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "brackendev 3/21/2018 17:56",
+	"super" : "Object",
+	"category" : "RSSTools-Fever",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"feedID",
+		"isItem",
+		"itemID",
+		"title",
+		"url",
+		"id",
+		"isLocal",
+		"temperature",
+		"isSaved",
+		"itemIDs"
+	],
+	"name" : "FeverHotLink",
+	"type" : "normal"
+}

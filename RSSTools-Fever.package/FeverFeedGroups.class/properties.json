@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "brackendev 3/21/2018 17:55",
+	"super" : "Object",
+	"category" : "RSSTools-Fever",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"apiVersion",
+		"auth",
+		"feedsGroups",
+		"lastRefreshedOnTime",
+		"feeds"
+	],
+	"name" : "FeverFeedGroups",
+	"type" : "normal"
+}

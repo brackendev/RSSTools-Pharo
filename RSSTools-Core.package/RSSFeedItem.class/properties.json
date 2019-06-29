@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "brackendev 3/21/2018 17:36",
+	"super" : "Object",
+	"category" : "RSSTools-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"description",
+		"guid",
+		"link",
+		"author",
+		"category",
+		"categoryDomain",
+		"comments",
+		"enclosure",
+		"pubDate",
+		"source"
+	],
+	"name" : "RSSFeedItem",
+	"type" : "normal"
+}

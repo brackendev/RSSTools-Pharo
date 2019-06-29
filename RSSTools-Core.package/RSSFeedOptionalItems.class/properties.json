@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "brackendev 3/21/2018 17:36",
+	"super" : "Object",
+	"category" : "RSSTools-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"language",
+		"rating",
+		"copyright",
+		"pubDate",
+		"lastBuildDate",
+		"category",
+		"docs",
+		"cloud",
+		"ttl",
+		"managingEditor",
+		"webMaster",
+		"skipHours",
+		"skipDays",
+		"image",
+		"items"
+	],
+	"name" : "RSSFeedOptionalItems",
+	"type" : "normal"
+}

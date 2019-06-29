@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "brackendev 3/21/2018 17:35",
+	"super" : "Object",
+	"category" : "RSSTools-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"requiredItems",
+		"optionalItems",
+		"xml"
+	],
+	"name" : "RSSFeed",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "brackendev 3/21/2018 17:37",
+	"super" : "Object",
+	"category" : "RSSTools-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RSSTools",
+	"type" : "normal"
+}
