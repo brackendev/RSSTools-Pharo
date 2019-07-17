@@ -4,12 +4,12 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec baseline: 'XMLParser' with: [ spec repository: 'github://svenvc/XML-Support-Pharo' ].
-			spec project: 'XPath' with: [
-			spec className: 'ConfigurationOfXPath';
-				loads: #('default');
-				versionString: #stable;
-				file: 'ConfigurationOfXPath';
-				repository: 'http://www.smalltalkhub.com/mc/PharoExtras/XPath/main'].
+			spec
+				project: 'XPath'
+				with: [ spec
+						className: #ConfigurationOfXPath;
+						versionString: #stable;
+						repository: 'http://smalltalkhub.com/mc/PharoExtras/XPath/main/' ].
 			spec baseline: 'NeoJSON' with: [ spec repository: 'github://svenvc/NeoJSON:master/repository' ].
 			spec baseline: 'ZincHTTPComponents' with: [ spec repository: 'github://svenvc/zinc:master/repository' ].
 			spec package: 'RSSTools-Core'.
