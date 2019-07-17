@@ -3,6 +3,13 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
+				project: 'XMLParserHTML'
+				with: [ spec
+						className: 'ConfigurationOfXMLParserHTML';
+						versionString: #stable;
+						repository: 'http://smalltalkhub.com/mc/PharoExtras/XMLParser/main'
+					].
+			spec
 				project: 'XPath'
 				with: [ spec
 						className: #ConfigurationOfXPath;
@@ -10,18 +17,32 @@ baseline: spec
 						repository: 'http://smalltalkhub.com/mc/PharoExtras/XPath/main/'
 					].
 			spec
-				baseline: 'XMLParser'
-				with: [ spec repository: 'github://svenvc/XML-Support-Pharo' ].
+				project: 'XMLWriter'
+				with: [ spec
+						className: 'ConfigurationOfXMLWriter';
+						versionString: #stable;
+						loads: 'default';
+						repository: 'http://www.smalltalkhub.com/mc/PharoExtras/XMLWriter/main'
+					].
 			spec
-				baseline: 'NeoJSON'
-				with: [ spec repository: 'github://svenvc/NeoJSON:master/repository' ].
+				project: 'NeoJSON'
+				with: [ spec
+						className: #ConfigurationOfNeoJSON;
+						version: #stable;
+						repository: 'http://mc.stfx.eu/Neo'
+					].
 			spec
-				baseline: 'ZincHTTPComponents'
-				with: [ spec repository: 'github://svenvc/zinc:master/repository' ].
+				project: 'ZincHTTPComponents'
+				with: [ spec
+						className: #ConfigurationOfZincHTTPComponents;
+						versionString: '3.0.1';
+						repository: 'http://mc.stfx.eu/ZincHTTPComponents'
+					].
+			spec package: 'RSSTools-Core'.
 			spec
-				package: 'RSSTools-Core';
 				package: 'RSSTools-Fever'
-					with: [ spec requires: 'RSSTools-Core' ];
+				with: [ spec requires: #('RSSTools-Core') ].
+			spec
 				package: 'RSSTools-Tests'
-					with: [ spec requires: 'RSSTools-Core' ]
+				with: [ spec requires: #('RSSTools-Core') ]
 			]
