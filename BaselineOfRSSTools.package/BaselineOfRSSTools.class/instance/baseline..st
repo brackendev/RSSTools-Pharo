@@ -18,7 +18,10 @@ baseline: spec
 			spec
 				baseline: 'ZincHTTPComponents'
 				with: [ spec repository: 'github://svenvc/zinc:master/repository' ].
-			spec package: 'RSSTools-Core'.
-			spec package: 'RSSTools-Fever'.
-			spec package: 'RSSTools-Tests'
+			spec
+				package: 'RSSTools-Core';
+				package: 'RSSTools-Fever'
+					with: [ spec requires: 'RSSTools-Core' ];
+				package: 'RSSTools-Tests'
+					with: [ spec requires: 'RSSTools-Core' ]
 			]
