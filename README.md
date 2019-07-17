@@ -100,7 +100,6 @@ FeverTools retrieveItemsForSession: feverSession.
 * [Shaun Inman](https://shauninman.com/) for [Fever](https://feedafever.com/) (no longer maintained).
 * [Sven Van Caekenberghe](https://github.com/svenvc) and [contributors](https://github.com/svenvc/zinc/graphs/contributors) for the [Zinc HTTP Components](http://stfx.eu), the open-source Smalltalk framework to deal with the HTTP networking protocol.
 * The [Pharo team](https://github.com/orgs/pharo-project/people) and [contributors](https://github.com/pharo-project/pharo/graphs/contributors) for [Pharo](http://pharo.org/), the pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback.
-* [Eliot Miranda](http://www.mirandabanda.org/cogblog/microbio/), the [OpenSmalltalk team](https://github.com/orgs/OpenSmalltalk/people), and [contributors](https://github.com/OpenSmalltalk/opensmalltalk-vm/graphs/contributors) for [OpenSmalltalk](https://github.com/OpenSmalltalk/opensmalltalk-vm) ([Cog](http://www.mirandabanda.org/cogblog/about-cog/)), the cross-platform virtual machine for Squeak, Pharo, Cuis, and Newspeak.
 
 ## Author
 
