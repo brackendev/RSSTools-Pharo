@@ -95,6 +95,16 @@ FeverTools retrieveItemsForSession: feverSession.
 
 ```
 
+## Acknowledgements
+
+This project makes use of the following third-party libraries:
+
+* [NeoJSON](https://github.com/svenvc/NeoJSON)
+* [XMLParser](http://www.smalltalkhub.com/#!/~PharoExtras/XMLParser)
+* [XMLWriter](http://www.smalltalkhub.com/#!/~PharoExtras/XMLWriter)
+* [XPath](http://www.smalltalkhub.com/#!/~PharoExtras/XPath)
+* [Zinc HTTP Components](https://github.com/svenvc/zinc)
+
 ## Author
 
 [brackendev](https://www.github.com/brackendev)
