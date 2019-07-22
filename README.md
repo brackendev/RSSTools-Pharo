@@ -14,6 +14,10 @@ In a Pharo playground, evaluate:
 Metacello new 
   repository: 'github://brackendev/RSSTools-Pharo';
   baseline: 'RSSTools';
+  onConflict: [ :ex | ex useIncoming ];
+  onUpgrade: [ :ex | ex useIncoming ];
+  onDowngrade: [ :ex | ex useLoaded ];
+  ignoreImage;
   load.
 ```
 
