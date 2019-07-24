@@ -14,6 +14,10 @@ In a Pharo playground, evaluate:
 Metacello new 
   repository: 'github://brackendev/RSSTools-Pharo';
   baseline: 'RSSTools';
+  onConflict: [ :ex | ex useIncoming ];
+  onUpgrade: [ :ex | ex useIncoming ];
+  onDowngrade: [ :ex | ex useLoaded ];
+  ignoreImage;
   load.
 ```
 
@@ -97,9 +101,13 @@ FeverTools retrieveItemsForSession: feverSession.
 
 ## Acknowledgements
 
-* [Shaun Inman](https://shauninman.com/) for [Fever](https://feedafever.com/) (no longer maintained).
-* [Sven Van Caekenberghe](https://github.com/svenvc) and [contributors](https://github.com/svenvc/zinc/graphs/contributors) for the [Zinc HTTP Components](http://stfx.eu), the open-source Smalltalk framework to deal with the HTTP networking protocol.
-* The [Pharo team](https://github.com/orgs/pharo-project/people) and [contributors](https://github.com/pharo-project/pharo/graphs/contributors) for [Pharo](http://pharo.org/), the pure object-oriented programming language and a powerful environment, focused on simplicity and immediate feedback.
+This project makes use of the following third-party libraries:
+
+* [NeoJSON](https://github.com/svenvc/NeoJSON)
+* [XMLParser](http://www.smalltalkhub.com/#!/~PharoExtras/XMLParser)
+* [XMLWriter](http://www.smalltalkhub.com/#!/~PharoExtras/XMLWriter)
+* [XPath](http://www.smalltalkhub.com/#!/~PharoExtras/XPath)
+* [Zinc HTTP Components](https://github.com/svenvc/zinc)
 
 ## Author
 
