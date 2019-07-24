@@ -41,10 +41,10 @@ RSSTools exampleXMLDocumentWithRSSFeed.
 
 ```smalltalk
 "Create RSS feed object from RSS 2.0 URL"
-rssFeed := RSSTools createRSSFeedWithURL: 'https://gist.githubusercontent.com/ToddG/1974651/raw/f7978c779bcb00aaa5a6551936e2387590cb303f/sample-rss-2.0-feed.xml'.
+rssFeed := RSSTools createRSSFeedWith: 'https://gist.githubusercontent.com/ToddG/1974651/raw/f7978c779bcb00aaa5a6551936e2387590cb303f/sample-rss-2.0-feed.xml'.
 
 "Create RSS 2.0 XML from feed object"
-RSSTools createXMLWithRSSFeed: rssFeed.
+RSSTools createXMLWith: rssFeed.
 ```
 
 ```smalltalk
@@ -74,7 +74,7 @@ title: 'RSS Feed';
 description: 'Feed Description';
 link: 'http://www.hostname.com/'.
 
-RSSTools createRSSFeedWithRSSFeedRequiredItems: rssFeedRequiredItems rssFeedOptionalItems: rssFeedOptionalItems.
+RSSTools createRSSFeedWith: rssFeedRequiredItems and: rssFeedOptionalItems.
 ```
 
 ### Fever API
@@ -83,19 +83,19 @@ In a Pharo playground, evaluate:
 
 ```smalltalk
 "Create a Fever session"
-feverSession := FeverSession sessionWithDomain: 'domain.com' email: 'fever@domain.com' password: 'password'.
+feverSession := FeverSession sessionWith: 'domain.com' email: 'fever@domain.com' password: 'password'.
 
 "Retrieve feeds"
-FeverTools retrieveFeedsForSession: feverSession.
+FeverTools retrieveFeedsFor: feverSession.
 
 "Retrieve groups"
-FeverTools retrieveGroupsForSession: feverSession.
+FeverTools retrieveGroupsFor: feverSession.
 
 "Retrieve Hot Links"
-FeverTools retrieveHotLinksForSession: feverSession page: 1 days: 1.
+FeverTools retrieveHotLinksFor: feverSession page: 1 days: 1.
 
 "Retrieve items"
-FeverTools retrieveItemsForSession: feverSession.
+FeverTools retrieveItemsFor: feverSession.
 
 ```
 
