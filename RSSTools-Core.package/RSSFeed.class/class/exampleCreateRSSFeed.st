@@ -26,5 +26,5 @@ exampleCreateRSSFeed
 		link: 'http://www.hostname.com/'.
 
 	^ RSSTools
-		createRSSFeedWithRSSFeedRequiredItems: rssFeedRequiredItems
-		rssFeedOptionalItems: rssFeedOptionalItems
+		createRSSFeedWith: rssFeedRequiredItems
+		and: rssFeedOptionalItems

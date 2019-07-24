@@ -1,5 +1,5 @@
 private
-createFromXMLDocument: anXMLDocument
+createFrom: anXMLDocument
 	| days rssFeedSkipHours |
 	days := OrderedCollection new.
 	rssFeedSkipHours := anXMLDocument xpath: '//channel/skiphours/day' asLowercase.

@@ -1,5 +1,6 @@
 public
-fromJSON: json
+from: json
+"TODO: Rename json to dict"
 	| feeds |
 	feeds := OrderedCollection new.
 	json
@@ -15,6 +16,8 @@ fromJSON: json
 					((each at: 'is_spark') == 1
 						ifTrue: [ true ]
 						ifFalse: [ false ]);
-				lastUpdatedOnTime: (DateAndTime fromUnixTime: (each at: 'last_updated_on_time') asInteger).
-			feeds add: feed ].
+				lastUpdatedOnTime:
+					(DateAndTime fromUnixTime: (each at: 'last_updated_on_time') asInteger).
+			feeds add: feed
+			].
 	^ feeds

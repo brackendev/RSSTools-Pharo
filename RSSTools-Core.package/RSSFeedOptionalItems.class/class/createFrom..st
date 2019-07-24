@@ -1,5 +1,5 @@
 private
-createFromXMLDocument: anXMLDocument
+createFrom: anXMLDocument
 	| rssFeedOptionalItems |
 	rssFeedOptionalItems := self new.
 	(anXMLDocument xpath: '//channel/language' asLowercase) size > 0
@@ -25,10 +25,10 @@ createFromXMLDocument: anXMLDocument
 	(anXMLDocument xpath: '//channel/webmaster' asLowercase) size > 0
 		ifTrue: [ rssFeedOptionalItems webMaster: (anXMLDocument xpath: '//channel/webmaster' asLowercase) first contentString ].
 	(anXMLDocument xpath: '//channel/skiphours' asLowercase) size > 0
-		ifTrue: [ rssFeedOptionalItems skipHours: (RSSFeedSkipHours createFromXMLDocument: anXMLDocument) ].
+		ifTrue: [ rssFeedOptionalItems skipHours: (RSSFeedSkipHours createFrom: anXMLDocument) ].
 	(anXMLDocument xpath: '//channel/skipdays' asLowercase) size > 0
-		ifTrue: [ rssFeedOptionalItems skipDays: (RSSFeedSkipDays createFromXMLDocument: anXMLDocument) ].
+		ifTrue: [ rssFeedOptionalItems skipDays: (RSSFeedSkipDays createFrom: anXMLDocument) ].
 	(anXMLDocument xpath: '//channel/item' asLowercase) size > 0
 		ifTrue:
-			[ rssFeedOptionalItems items: ((anXMLDocument xpath: '//channel/item' asLowercase) collect: [ :each | RSSFeedItem createFromXMLDocument: each ]) ].
+			[ rssFeedOptionalItems items: ((anXMLDocument xpath: '//channel/item' asLowercase) collect: [ :each | RSSFeedItem createFrom: each ]) ].
 	^ rssFeedOptionalItems

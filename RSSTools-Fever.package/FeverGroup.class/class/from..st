@@ -1,5 +1,5 @@
 public
-fromJSON: json
+from: json
 	| groups |
 	groups := OrderedCollection new.
 	(json at: 'groups')

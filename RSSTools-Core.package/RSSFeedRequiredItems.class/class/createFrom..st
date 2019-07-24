@@ -1,5 +1,5 @@
 private
-createFromXMLDocument: anXMLDocument
+createFrom: anXMLDocument
 	| rssFeedRequiredItems |
 	rssFeedRequiredItems := self new.
 	(anXMLDocument xpath: '//channel/title') size > 0

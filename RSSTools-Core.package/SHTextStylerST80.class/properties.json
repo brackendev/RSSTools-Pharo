@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "brackendev 7/25/2019 00:07",
+	"super" : "SHRBTextStyler",
+	"category" : "RSSTools-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SHTextStylerST80",
+	"type" : "normal"
+}

@@ -1,5 +1,5 @@
 public
-fromJSON: json
+from: json
 	| items |
 	items := OrderedCollection new.
 	json

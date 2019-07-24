@@ -1,5 +1,5 @@
 public
-fromJSON: json
+from: json
 	| feedsGroups |
 	feedsGroups := OrderedCollection new.
 	json

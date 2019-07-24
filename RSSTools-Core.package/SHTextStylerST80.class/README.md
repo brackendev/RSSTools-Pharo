@@ -1,0 +1,1 @@
+XMLHighlightDefaults #textColorForShoutProperty: refers to SHTextStylerST80 instead of SHRBTextStyler.

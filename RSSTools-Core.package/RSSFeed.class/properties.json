@@ -8,7 +8,7 @@
 	"instvars" : [
 		"requiredItems",
 		"optionalItems",
-		"xml"
+		"xmlDocument"
 	],
 	"name" : "RSSFeed",
 	"type" : "normal"

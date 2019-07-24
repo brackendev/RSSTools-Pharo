@@ -1,5 +1,5 @@
 private
-createFromXMLDocument: anXMLDocument
+createFrom: anXMLDocument
 	| rssFeedItem |
 	rssFeedItem := self new.
 	(anXMLDocument xpath: '//item/title' asLowercase) size > 0

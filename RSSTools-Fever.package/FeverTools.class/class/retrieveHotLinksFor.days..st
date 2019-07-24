@@ -1,10 +1,10 @@
 public
-retrieveHotLinksForSession: aFeverSession days: days
+retrieveHotLinksFor: aFeverSession days: days
 	| allResults hotLinks |
 	allResults := OrderedCollection new.
 	hotLinks := [ :page | 
 	| results |
-	results := self retrieveHotLinksForSession: aFeverSession page: page days: days.
+	results := self retrieveHotLinksFor: aFeverSession page: page days: days.
 	results isEmpty
 		ifTrue: [ ^ allResults ]
 		ifFalse: [ allResults addAll: results.

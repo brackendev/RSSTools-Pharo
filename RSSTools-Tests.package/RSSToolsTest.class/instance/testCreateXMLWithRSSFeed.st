@@ -1,6 +1,6 @@
 tests
 testCreateXMLWithRSSFeed
 	| feed xml |
-	feed := RSSTools createRSSFeedWithXMLDocument: testXML1.
-	xml := RSSTools createXMLWithRSSFeed: feed.
+	feed := RSSTools createRSSFeedWith: testXML1.
+	xml := RSSTools createXMLWith: feed.
 	self assert: xml equals: testXML2 asString
