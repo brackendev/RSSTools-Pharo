@@ -1,5 +1,5 @@
 tests
-testCreateRSSFeedWithXMLDocument
+testCreateRSSFeedWith
 	| rssFeed |
 	rssFeed := RSSFeed createFrom: testXML1.
 	self assert: rssFeed requiredItems title equals: 'Example Feed'.

@@ -1,5 +1,5 @@
 tests
-testCreateXMLWithRSSFeed
+testCreateXMLWith
 	| feed xml |
 	feed := RSSTools createRSSFeedWith: testXML1.
 	xml := RSSTools createXMLWith: feed.
