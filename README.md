@@ -3,7 +3,7 @@ RSSTools-Pharo
 
 **Objects to work with [RSS](https://en.wikipedia.org/wiki/RSS) feeds and the [Fever API](https://feedafever.com/api).**
 
-* [Pharo 7.0](http://pharo.org/) reference platform.
+* [Pharo 7.0](https://www.pharo.org/) reference platform.
 * Examples and tests included.
 
 ## Installation
@@ -25,7 +25,7 @@ Metacello new
 
 ### RSS Feeds
 
-In a Pharo playground, evaluate:
+In a Playground, evaluate:
 
 ```smalltalk
 RSSTools exampleCreateRSSFeedWithURL.
@@ -79,7 +79,7 @@ RSSTools createRSSFeedWith: rssFeedRequiredItems and: rssFeedOptionalItems.
 
 ### Fever API
 
-In a Pharo playground, evaluate:
+In a Playground, evaluate:
 
 ```smalltalk
 "Create a Fever session"
@@ -96,7 +96,6 @@ FeverTools retrieveHotLinksFor: feverSession page: 1 days: 1.
 
 "Retrieve items"
 FeverTools retrieveItemsFor: feverSession.
-
 ```
 
 ## Acknowledgements
