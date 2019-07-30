@@ -29,13 +29,7 @@ In a Playground, evaluate:
 
 ```smalltalk
 RSSTools exampleCreateRSSFeedWithURL.
-```
-
-```smalltalk
 RSSTools exampleCreateRSSFeedWithXMLDocument.
-```
-
-```smalltalk
 RSSTools exampleXMLDocumentWithRSSFeed.
 ```
 
