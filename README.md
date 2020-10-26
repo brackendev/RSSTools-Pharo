@@ -8,7 +8,7 @@ RSSTools-Pharo
 
 ## Installation
 
-In a Pharo playground, evaluate:
+In a Pharo playground, _Do it_:
 
 ```smalltalk
 Metacello new 
@@ -25,7 +25,7 @@ Metacello new
 
 ### RSS Feeds
 
-In a Playground, evaluate:
+In a Playground, _Do it_:
 
 ```smalltalk
 RSSTools exampleCreateRSSFeedWithURL.
@@ -73,7 +73,7 @@ RSSTools createRSSFeedWith: rssFeedRequiredItems and: rssFeedOptionalItems.
 
 ### Fever API
 
-In a Playground, evaluate:
+In a Playground, _Do it_:
 
 ```smalltalk
 "Create a Fever session"
@@ -109,3 +109,12 @@ This project makes use of the following third-party libraries:
 ## License
 
 RSSTools-Pharo is released under the MIT license. See the LICENSE file for more info.
+
+- - -
+
+## Useful Links
+
+* [/r/smalltalk](https://www.reddit.com/r/smalltalk/) [Reddit]
+* [@pharoproject](https://twitter.com/pharoproject) [Twitter]
+* [forum.world.st](http://forum.world.st/)
+* [pharo.org](http://www.pharo.org/)
