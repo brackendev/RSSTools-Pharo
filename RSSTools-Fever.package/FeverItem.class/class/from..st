@@ -12,14 +12,9 @@ from: json
 				author: (each at: 'author');
 				html: (each at: 'html');
 				url: (each at: 'url');
-				isSaved:
-					((each at: 'is_saved') == 1
-						ifTrue: [ true ]
-						ifFalse: [ false ]);
-				isRead:
-					((each at: 'is_read') == 1
-						ifTrue: [ true ]
-						ifFalse: [ false ]);
+				isSaved: (each at: 'is_saved') == 1;
+				isRead: (each at: 'is_read') == 1;
 				createdOnTime: (DateAndTime fromUnixTime: (each at: 'created_on_time') asInteger).
-			items add: item ].
+			items add: item
+			].
 	^ items
