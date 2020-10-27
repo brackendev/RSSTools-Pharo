@@ -109,12 +109,3 @@ This project makes use of the following third-party libraries:
 ## License
 
 RSSTools-Pharo is released under the MIT license. See the LICENSE file for more info.
-
-- - -
-
-## Useful Links
-
-* [/r/smalltalk](https://www.reddit.com/r/smalltalk/) [Reddit]
-* [@pharoproject](https://twitter.com/pharoproject) [Twitter]
-* [forum.world.st](http://forum.world.st/)
-* [pharo.org](http://www.pharo.org/)
