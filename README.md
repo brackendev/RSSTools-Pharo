@@ -92,6 +92,10 @@ FeverTools retrieveHotLinksFor: feverSession page: 1 days: 1.
 FeverTools retrieveItemsFor: feverSession.
 ```
 
+## TODO
+
+- [ ] Support Pharo 9 (when stable)
+
 ## Acknowledgements
 
 This project makes use of the following third-party libraries:
