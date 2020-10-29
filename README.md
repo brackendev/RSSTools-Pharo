@@ -12,7 +12,7 @@ In a Pharo playground, _Do it_:
 
 ```smalltalk
 Metacello new 
-  repository: 'github://brackendev/RSSTools-Pharo';
+  repository: 'github://brackendev/RSSTools-Pharo/src';
   baseline: 'RSSTools';
   onConflict: [ :ex | ex useIncoming ];
   onUpgrade: [ :ex | ex useIncoming ];
