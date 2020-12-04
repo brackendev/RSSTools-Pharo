@@ -68,7 +68,10 @@ title: 'RSS Feed';
 description: 'Feed Description';
 link: 'http://www.hostname.com/'.
 
-RSSTools createRSSFeedWith: rssFeedRequiredItems and: rssFeedOptionalItems.
+rssFeed := RSSTools createRSSFeedWith: rssFeedRequiredItems and: rssFeedOptionalItems.
+
+"Create RSS 2.0 XML from feed object"
+RSSTools createXMLWith: rssFeed.
 ```
 
 ### Fever API
