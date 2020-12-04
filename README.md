@@ -35,7 +35,7 @@ RSSTools exampleXMLDocumentWithRSSFeed.
 
 ```smalltalk
 "Create RSS feed object from RSS 2.0 URL"
-rssFeed := RSSTools createRSSFeedWith: 'https://gist.githubusercontent.com/ToddG/1974651/raw/f7978c779bcb00aaa5a6551936e2387590cb303f/sample-rss-2.0-feed.xml'.
+rssFeed := RSSTools createRSSFeedWith: 'https://gist.github.com/brackendev/95b25e1b7128f326969eb5060f5d591c'.
 
 "Create RSS 2.0 XML from feed object"
 RSSTools createXMLWith: rssFeed.
