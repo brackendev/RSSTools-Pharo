@@ -4,16 +4,15 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
-				project: 'XMLParser'
+				baseline: 'XMLParser'
 				with:
 					[ spec repository: 'github://pharo-contributions/XML-XMLParser/src' ].
 			spec
-				project: 'XPath'
+				baseline: 'XPath'
 				with: [ spec repository: 'github://pharo-contributions/XML-XPath/src' ].
 			spec
-				project: 'XMLWriter'
-				with:
-					[ spec repository: 'github://pharo-contributions/XML-XMLWriter/src' ].
+				baseline: 'XMLWriter'
+				with: [ spec repository: 'github://pharo-contributions/XML-XMLWriter/src' ].
 			spec
 				baseline: 'NeoJSON'
 				with: [ spec repository: 'github://svenvc/NeoJSON/repository' ].
