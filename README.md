@@ -104,9 +104,9 @@ FeverTools retrieveItemsFor: feverSession.
 This project makes use of the following third-party libraries:
 
 * [NeoJSON](https://github.com/svenvc/NeoJSON)
-* [XMLParser](http://www.smalltalkhub.com/#!/~PharoExtras/XMLParser)
-* [XMLWriter](http://www.smalltalkhub.com/#!/~PharoExtras/XMLWriter)
-* [XPath](http://www.smalltalkhub.com/#!/~PharoExtras/XPath)
+* [XMLParser](https://github.com/pharo-contributions/XML-XMLParser)
+* [XMLWriter](https://github.com/pharo-contributions/XML-XMLWriter)
+* [XPath](https://github.com/pharo-contributions/XML-XPath)
 * [Zinc HTTP Components](https://github.com/svenvc/zinc)
 
 ## Author
