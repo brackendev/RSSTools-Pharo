@@ -3,7 +3,7 @@ RSSTools-Pharo
 
 **Objects to work with [RSS](https://en.wikipedia.org/wiki/RSS) feeds and the [Fever API](https://feedafever.com/api).**
 
-* [Pharo 8.0](https://www.pharo.org/) reference platform.
+* [Pharo 8](https://www.pharo.org/) reference platform.
 * Examples and tests included.
 
 ## Installation
@@ -93,7 +93,7 @@ FeverTools retrieveItemsFor: feverSession.
 
 ## TODO
 
-- [ ] Support Pharo 9 (when stable)
+- [ ] Support latest Pharo
 
 ## Acknowledgements
 
