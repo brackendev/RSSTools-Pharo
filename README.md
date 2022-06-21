@@ -6,6 +6,10 @@ RSSTools-Pharo
 * [Pharo 8](https://www.pharo.org/) reference platform.
 * Examples and tests included.
 
+## TODO
+
+- [ ] Support the latest Pharo release.
+
 ## Installation
 
 In a Pharo playground, _Do it_:
@@ -90,10 +94,6 @@ FeverTools retrieveHotLinksFor: feverSession page: 1 days: 1.
 "Retrieve items"
 FeverTools retrieveItemsFor: feverSession.
 ```
-
-## TODO
-
-- [ ] Support latest Pharo
 
 ## Acknowledgements
 
